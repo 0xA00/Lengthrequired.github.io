@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "ubuntumonoR";
+  src: url("../font/UbuntuMono-R.ttf")
+}
+
+body{
+  background-color: #2c2c2c;
+font-family: ubuntumonoR;
+  font-size:32px;
+  color: #61cb5f;
+}
+
+.grandbloc{
+  height: 20em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h1{font-size:32px;}
+h2{font-size:22px;}
+
+a:link{text-decoration: none;}
+.cases{
+  height: 250px;
+  width: 200px;
+}
+
+a:link{color: #e0dada;}
+
+a:visited{color: #e0dada;}
+#case1 h1{color:#E50000;}
+#case2 h1{color: #FF8D00;}
+
+#case3 h1{color: #FFEE00;}
+#case4 h1{color: #028121;}
+#case5 h1{color:#004CFF;}
+#case6 h1{color:#760088;}
+#tiret{color: #1cacff;}
+
+#dollar{color:white;}
+
+#whitespace{color:#2c2c2c;}
+
+
+form{
+  margin:0 auto;
+  width:575px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+  background-color:#DCDCDCFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+input {
+  all: unset;
+  font: 16px system-ui;
+  height: 30px;
+  width: 556px;
+  padding: 6px 10px;
+  color:black;
+  font-family: ubuntumonoR;
+}
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
