@@ -3,7 +3,7 @@
   src: url("../font/UbuntuMono-R.ttf")
 }
 body{
-  background: linear-gradient(to top, #000000a0,#000000a0),url(https://cdn.discordapp.com/attachments/921823159634788434/942018579702886410/1642346936318.png) center ;
+  background: linear-gradient(to top, #000000a0,#000000a0),url(https://cdn.discordapp.com/attachments/921823159634788434/942018579702886410/1642346936318.png) top center ;
   background-attachment: fixed;
 }
 
@@ -46,7 +46,7 @@ a:visited{color: #e0dada;}
 
 #dollar{color:white;}
 
-#whitespace{color:#121C29;}
+#whitespace{color:#121E2D;}
 
 
 form{
