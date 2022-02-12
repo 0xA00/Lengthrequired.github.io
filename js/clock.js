@@ -10,8 +10,8 @@ function showTime(){
     s = (s < 10) ? "0" + s : s;
 
     var time = h + ":" + m + ":" + s;
-    document.getElementById("MyClockDisplay").innerText = time;
-    document.getElementById("MyClockDisplay").textContent = time;
+    document.getElementById("clock").innerText = time;
+    document.getElementById("clock").textContent = time;
 
     setTimeout(showTime, 1000);
 
